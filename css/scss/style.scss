@@ -1,0 +1,26 @@
+@import "header";
+
+@mixin sombra() {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  @include sombra();
+  color: #cdd9df;
+}
+
+body {
+  background: rgb(23, 34, 49);
+}
+
+h3 {
+  @include sombra();
+}
+
+@mixin teste() {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  background: black;
+}
