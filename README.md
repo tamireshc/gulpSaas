@@ -1,2 +1,2 @@
 # gulpSaas
-:scissors: Script em Gulp para converter scss em css
+:scissors: Script em Gulp para converter SCSS em CSS
